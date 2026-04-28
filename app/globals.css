@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #100d12;
+  color: #f8efe4;
+}
+
+button {
+  font: inherit;
+}
+
+#game-container canvas {
+  display: block;
+}
